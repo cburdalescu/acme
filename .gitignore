@@ -4,3 +4,4 @@ cache/
 twig-templates/
 vendor/
 .env
+.idea/

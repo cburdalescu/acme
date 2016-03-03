@@ -6,14 +6,11 @@ class Validator
 {
     public function isValid($validation_data)
     {
-
         $errors = [];
 
         foreach ($validation_data as $name => $value) {
             $rules = explode("|", $value);
             foreach ($rules as $rule) {
-
-                if (isset($_REQUEST[$name])) {
 
                     $exploded = explode(":", $rule);
 
@@ -38,11 +35,9 @@ class Validator
                             break;
 
                         default:
-                            //do nothing
+                            $errors[] = "No value found!";
                     }
-                } else {
-                    $errors[] = "No value found!";
-                }
+
             }
 
         }
