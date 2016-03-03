@@ -1,0 +1,23 @@
+home page
+    -- slider
+    -- some highlight of product and services
+
+regstration page
+    -- allow users to register
+     --collect
+        --first name
+        --last name
+        email
+        password
+
+login page
+    --allow login user and password
+
+about
+    --test
+    --display this info from database
+
+testimonials page
+   --display customer testimonials
+   --allow logged in users to pose testimonials
+   --titee and text

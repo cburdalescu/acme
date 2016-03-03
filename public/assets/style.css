@@ -1,0 +1,22 @@
+
+.empty-well {
+    background: transparent;
+}
+.bigger-icon {
+    font-size: 48px;
+}
+.footer-background {
+    background: black;
+    color: white;
+}
+.error {
+    color: red;
+}
+
+.carousel {
+    margin-top: 50px;
+}
+
+.padding-left-8px {
+    padding-left: 8px;
+}
